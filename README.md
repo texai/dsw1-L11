@@ -222,15 +222,15 @@
           ```java
           // Carrera.java
           @OneToMany(targetEntity = Curso.class, mappedBy = "carrera")
-	  @OrderBy("nombre ASC")
-	  private Set<Curso> cursos = new HashSet<Curso>();
+          @OrderBy("nombre ASC")
+          private Set<Curso> cursos = new HashSet<Curso>();
 	
-	  public Set<Curso> getCursos() {
-	    return cursos;
-	  }
-	  public void setCursos(Set<Curso> cursos) {
-	    this.cursos = cursos;
-	  }
+          public Set<Curso> getCursos() {
+            return cursos;
+          }
+          public void setCursos(Set<Curso> cursos) {
+            this.cursos = cursos;
+          }
           ```
     - Instalar extension cliente de postgresql: Database Client
 
