@@ -201,9 +201,38 @@
 	}
     
     ```
-  - Agregar de la misma manera las clases Carrera.java (Entidad) y CarreraRepository.java (Repository)
-  - Vincular Curso.java con Carrera.java
-  - Instalar extension cliente de postgresql: Database Client
+    - Agregar de la misma manera las clases Carrera.java (Entidad) y CarreraRepository.java (Repository)
+    - Vincular Curso.java con Carrera.java
+        - Un Curso tiene una Carrera
+          ```java
+          // Curso.java
+          @ManyToOne(cascade = CascadeType.ALL)
+          @JoinColumn(name = "id_carrera")
+          private Carrera carrera;
+          
+          public Carrera getCarrera() {
+              return carrera;
+          }
+          public void setCarrera(Carrera carrera) {
+              this.carrera = carrera;
+          }
+          ```
+
+        - Una Carrera tiene muchos Cursos
+          ```java
+          // Carrera.java
+          @OneToMany(targetEntity = Curso.class, mappedBy = "carrera")
+	  @OrderBy("nombre ASC")
+	  private Set<Curso> cursos = new HashSet<Curso>();
+	
+	  public Set<Curso> getCursos() {
+	    return cursos;
+	  }
+	  public void setCursos(Set<Curso> cursos) {
+	    this.cursos = cursos;
+	  }
+          ```
+    - Instalar extension cliente de postgresql: Database Client
 
 
 
