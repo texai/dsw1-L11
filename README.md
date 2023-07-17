@@ -233,6 +233,8 @@
           }
           ```
     - Instalar extension cliente de postgresql: Database Client
+      - Asignar un id_carrera a los cursos
+    - Realizar Pruebas
 
 
 
