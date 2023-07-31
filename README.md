@@ -239,6 +239,11 @@
 ## Semana 9
 
   - [Guía](https://spring.io/guides/tutorials/react-and-spring-data-rest/)
+  - Para construir el paquete (built, bundle) de nuestra app de frontend:
+    - ignorar node_modules: Agregar una nueva linea con el texto `node_modules` en el archivo `.gitignore`
+    - instalar dependencias de node: `npm i`
+    - Para ejecutar webpack desde versiones de node superiores a la 16: `export NODE_OPTIONS=--openssl-legacy-provider`
+    - Ejecutamos webpack para que empquete nuestra aplicación de frontend segun la configuración declarada en el archivo webpack.config.js `./node_modules/webpack-cli/bin/cli.js`
 
 ## Semana 10
 
