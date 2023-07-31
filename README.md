@@ -240,5 +240,17 @@
 
   - [Guía](https://spring.io/guides/tutorials/react-and-spring-data-rest/)
 
+## Semana 10
 
+- Evaluación COntínua 3
+
+## Semana 11
+
+- .
+
+## Semana 14
+
+  - Evaluación Final
+    - BackEnd
+    - FrontEnd
 
