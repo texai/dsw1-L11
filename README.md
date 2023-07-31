@@ -253,7 +253,7 @@
 
 - Revisión: FrontEnd
 - Práctica:
-  - Tomando como base un repositorio ya con BackEnd y FrontEnd funcionando: https://github.com/texai/semana9-app-cliente-react-L11
+  - Tomando como base un repositorio ya con BackEnd y FrontEnd funcionando: https://github.com/cursos-idat/semana9-app-cliente-react-L11
   - Implementar su propia entidad, con al menos 3 atributos (campos)
     - clase Entidad
     - interface Repository
