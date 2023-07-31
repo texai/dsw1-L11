@@ -248,7 +248,13 @@
 
 - Revisión: FrontEnd
 - Práctica:
-  - Tomando como base un repositorio ya con BackEnd y FrontEnd funcionando 
+  - Tomando como base un repositorio ya con BackEnd y FrontEnd funcionando: https://github.com/texai/semana9-app-cliente-react-L11
+  - Implementar su propia entidad, con al menos 3 atributos (campos)
+    - clase Entidad
+    - interface Repository
+    - Database Loader
+    - Modificar app.js
+    - reqs.http
 
 ## Semana 14
 
