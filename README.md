@@ -246,11 +246,17 @@
 
 ## Semana 11
 
-- .
+- Revisión: FrontEnd
+- Práctica:
+  - Tomando como base un repositorio ya con BackEnd y FrontEnd funcionando 
 
 ## Semana 14
 
   - Evaluación Final
     - BackEnd
+      - Construir 1 servicio web para 2 entidades (CrudRepository, PagingAndSortingRepository)
+      - Controlador adicionales
     - FrontEnd
+      - Vista de tabla de datos, con datos cargados, usando ReactJS
+      - Formulario para crear y editar.
 
