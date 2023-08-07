@@ -263,7 +263,6 @@
 
 ## Semana 12
 
-- Dos tablas en la misma vista
 - Componentes React
   - Clases
   - Funciones
