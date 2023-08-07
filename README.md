@@ -274,7 +274,7 @@
   - Form POST
   - redirect to Home
 - Práctica:
-  - Crear un formulario que agregue datos
+  - Crear un formulario que agregue datos de la entidad Instrumento: nombre, categoría y descripcion
 
 ## Semana 14
 
