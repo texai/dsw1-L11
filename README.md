@@ -267,10 +267,12 @@
   - Clases
   - Funciones
 - React Router DOM
+  - `npm i react-router-dom`
+- `<Link to="/" >Volver</Link>`
 - Formulario
-  - onSubmit
-  - onChange
-  - useState
+  - `onSubmit`
+  - `onChange`
+  - `useState`
   - Form POST
   - redirect to Home
 - Práctica:
