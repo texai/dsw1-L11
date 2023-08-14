@@ -278,6 +278,14 @@
 - Práctica:
   - Crear un formulario que agregue datos de la entidad Instrumento: nombre, categoría y descripcion
 
+## Semana 13
+
+  - Editar
+  - Ver detalle
+  - Mostrar listado con datos de varias entidades
+  - Formulario con controles <select> y <option>
+  - Guardar referencias hacia otras entidades
+
 ## Semana 14
 
   - Evaluación Final
