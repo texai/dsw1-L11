@@ -10,7 +10,7 @@
     - Vista de tabla de datos, con datos foráneos, usando ReactJS (/pages/ver-banda/:id)
     - Formulario para crear  (Ej: /pages/nuevo-musico/ , /pages/nueva-banda/)
     - Formulario para crear editar (Ej: /pages/editar-musico )
-    - Formulario con controles <select> y <option> (Ej: /ver/banda/:id/nuevo-integrante)
+    - Formulario con controles `<select>` y `<option>` (Ej: /ver/banda/:id/nuevo-integrante)
 
 
 ## Semana 1
