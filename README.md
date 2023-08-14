@@ -281,10 +281,17 @@
 ## Semana 13
 
   - Editar
-  - Ver detalle
-  - Mostrar listado con datos de varias entidades
-  - Formulario con controles <select> y <option>
-  - Guardar referencias hacia otras entidades
+  - Back End:
+    - Entidad Banda
+    - Entidad Integrante
+    - Repository Banda
+    - Repository Integrante
+    - Controller /formacion/:id_banda
+  - Front End:
+    - Ver detalle
+    - Mostrar listado con datos de varias entidades
+    - Formulario con controles <select> y <option>
+    - Guardar referencias hacia otras entidades
 
 ## Semana 14
 
