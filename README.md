@@ -1,5 +1,18 @@
 # Desarrollo de Servicios Web 1
 
+## Semana 14
+
+- Evaluación Final
+  - BackEnd
+    - Construir 1 servicio web para las entidades (CrudRepository) (Banda, BandaRepository, Musico, MusicoReposotory...)
+    - Controlador adicionales (HomeController)
+  - FrontEnd
+    - Vista de tabla de datos, con datos foráneos, usando ReactJS (/pages/ver-banda/:id)
+    - Formulario para crear  (Ej: /pages/nuevo-musico/ , /pages/nueva-banda/)
+    - Formulario para crear editar (Ej: /pages/editar-musico )
+    - Formulario con controles <select> y <option> (Ej: /ver/banda/:id/nuevo-integrante)
+
+
 ## Semana 1
 
 - Presentación personal (xp pro, lenguajes, empresas)
@@ -292,20 +305,3 @@
   - Mostrar listado con datos de varias entidades
   - Formulario con controles <select> y <option>
   - Guardar referencias hacia otras entidades
-
-
-```
-
-# Semana 14
-
-- Evaluación Final
-  - BackEnd
-    - Construir 1 servicio web para las entidades (CrudRepository) (Banda, BandaRepository, Musico, MusicoReposotory...)
-    - Controlador adicionales (HomeController)
-  - FrontEnd
-    - Vista de tabla de datos, con datos foráneos, usando ReactJS (/pages/ver-banda/:id)
-    - Formulario para crear  (Ej: /pages/nuevo-musico/ , /pages/nueva-banda/)
-    - Formulario para crear editar (Ej: /pages/editar-musico )
-    - Formulario con controles <select> y <option> (Ej: /ver/banda/:id/nuevo-integrante)
-
-```
